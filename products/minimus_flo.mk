@@ -2,10 +2,10 @@
 $(call inherit-product, device/asus/flo/full_flo.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/chroma/products/common.mk)
+$(call inherit-product, vendor/minimus/products/common.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := chroma_flo
+PRODUCT_NAME := minimus_flo
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := flo
 PRODUCT_MODEL := Nexus 7 WiFi
@@ -13,7 +13,7 @@ PRODUCT_MANUFACTURER := ASUS
 
 # Boot animation
 PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/flo/system/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/minimus/prebuilt/flo/system/media/bootanimation.zip:system/media/bootanimation.zip
 
 #fmas n7 specific
 PRODUCT_PROPERTY_OVERRIDES += \

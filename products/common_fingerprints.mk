@@ -1,6 +1,6 @@
  #This is because syko doen't like having to open 20 products just to change numbers
 
-ifeq ($(TARGET_PRODUCT),chroma_deb)
+ifeq ($(TARGET_PRODUCT),minimus_deb)
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=razorg \
@@ -8,7 +8,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="razorg-user 5.1.1 LMY48G 1914015 release-keys"
 endif
 
-ifeq ($(TARGET_PRODUCT),chroma_flo)
+ifeq ($(TARGET_PRODUCT),minimus_flo)
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=razor \
@@ -16,7 +16,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="razor-user 5.1.1 LMY48G 1914015 release-keys"
 endif
 
-ifeq ($(TARGET_PRODUCT),chroma_grouper)
+ifeq ($(TARGET_PRODUCT),minimus_grouper)
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=grouper \
@@ -24,7 +24,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="nakasi-user 5.1.1 LMY48G 1914015 release-keys"
 endif
 
-ifeq ($(TARGET_PRODUCT),chroma_hammerhead)
+ifeq ($(TARGET_PRODUCT),minimus_hammerhead)
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
@@ -32,7 +32,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="hammerhead-user 5.1.1 LMY48G 1914015 release-keys"
 endif
 
-ifeq ($(TARGET_PRODUCT),chroma_mako)
+ifeq ($(TARGET_PRODUCT),minimus_mako)
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=occam \
@@ -40,7 +40,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="occam-user 5.1.1 LMY48G 1914015 release-keys"
 endif
 
-ifeq ($(TARGET_PRODUCT),chroma_manta)
+ifeq ($(TARGET_PRODUCT),minimus_manta)
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mantaray \
@@ -48,7 +48,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="mantaray-user 5.1.1 LMY48G 1914015 release-keys"
 endif
 
-ifeq ($(TARGET_PRODUCT),chroma_shamu)
+ifeq ($(TARGET_PRODUCT),minimus_shamu)
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=shamu \
@@ -56,7 +56,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="shamu-user 5.1.1 LMY48G 1914015 release-keys"
 endif
 
-ifeq ($(TARGET_PRODUCT),chroma_tilapia)
+ifeq ($(TARGET_PRODUCT),minimus_tilapia)
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=tilapia \

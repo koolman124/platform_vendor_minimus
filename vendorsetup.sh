@@ -1,9 +1,6 @@
-add_lunch_combo chroma_emulator-eng
-add_lunch_combo chroma_deb-user
-add_lunch_combo chroma_flo-user
-add_lunch_combo chroma_grouper-user
-add_lunch_combo chroma_hammerhead-user
-add_lunch_combo chroma_mako-user
-add_lunch_combo chroma_manta-user
-add_lunch_combo chroma_shamu-user
-add_lunch_combo chroma_tilapia-user
+add_lunch_combo minimus_flo-user
+add_lunch_combo minimus_grouper-user
+add_lunch_combo minimus_hammerhead-user
+add_lunch_combo minimus_mako-user
+add_lunch_combo minimus_manta-user
+add_lunch_combo minimus_shamu-user

@@ -2,10 +2,10 @@
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/chroma/products/common.mk)
+$(call inherit-product, vendor/minimus/products/common.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := chroma_hammerhead
+PRODUCT_NAME := minimus_hammerhead
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := hammerhead
 PRODUCT_MODEL := Nexus 5
@@ -18,4 +18,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Boot animation
 PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/hammerhead/system/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/minimus/prebuilt/hammerhead/system/media/bootanimation.zip:system/media/bootanimation.zip
