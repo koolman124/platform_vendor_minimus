@@ -3,7 +3,7 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/chroma/sepolicy
+    vendor/minimus/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     mediaserver.te \
