@@ -60,6 +60,11 @@ PRODUCT_COPY_FILES += \
     vendor/minimus/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/minimus/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
  
+# Bootanimation
+include vendor/minimus/configs/bootanimation.mk
+
+# Theme Engine
+include vendor/minimus/configs/themes_common.mk
 
 # Include chromium prebuilt if opted in
 ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)

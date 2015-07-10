@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-allow system_server wallpaper_file:file relabelto; 
-=======
 # Themes
 allow system_server theme_data_file:dir create_dir_perms;
 allow system_server theme_data_file:file create_file_perms;
 allow system_server resourcecache_data_file:dir create_dir_perms;
 allow system_server resourcecache_data_file:file create_file_perms;
->>>>>>> c314996... Themes: Port to AOSPA [5/6]
