@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    LockClock
+    SlimLauncher
 
 # Exchange2
 PRODUCT_COPY_FILES += \
