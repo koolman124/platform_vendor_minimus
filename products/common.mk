@@ -52,8 +52,8 @@ PRODUCT_COPY_FILES += \
     vendor/minimus/prebuilt/common/app/Exchange2.apk:system/app/Exchange2/Exchange2.apk
 
 # APN list
-PRODUCT_COPY_FILES += \
-    vendor/minimus/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+#PRODUCT_COPY_FILES += \
+#    vendor/minimus/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # SuperSU
 PRODUCT_COPY_FILES += \
