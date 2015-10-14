@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/chroma_shamu.mk
+    $(LOCAL_DIR)/minimus_shamu.mk

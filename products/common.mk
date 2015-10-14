@@ -35,26 +35,16 @@ PRODUCT_COPY_FILES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    Busybox \
     Exchange2 \
     Launcher3 \
     Stk 
 
-# APN list
+# Boot animation
 PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/chroma/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
-# SuperSU
-PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
-    vendor/chroma/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
- 
-# Backup Tool
-PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/common/addon.d/50-chroma.sh:system/addon.d/50-chroma.sh \
-    vendor/chroma/prebuilt/common/addon.d/99-backup.sh:system/addon.d/99-backup.sh \
-    vendor/chroma/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/chroma/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/chroma/prebuilt/common/etc/backup.conf:system/etc/backup.conf
+# APN list
+#PRODUCT_COPY_FILES += \
+#    vendor/chroma/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 -include vendor/chroma/products/common_fingerprints.mk
